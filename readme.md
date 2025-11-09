@@ -10,14 +10,6 @@ This repository contains a small full-stack application (frontend + backend) for
 - Environment variables
 - Notes, troubleshooting & changelog
 
-If you want, I can:
-- Add example Postman collection or a small script that runs through the register → login flow.
-- Implement a more robust `AuthProvider` that automatically refreshes/checks token on app load.
-
----
-
-If you'd like the README to include API response examples, Postman export, or a short developer checklist for deployment, tell me which one and I will add it.
-
 ## Project overview
 
 - **Backend:** Node + Express + Mongoose. Handles user OTP-based registration, password hashing, JWT generation, cookie setting, post CRUD and media uploads via Cloudinary.
@@ -141,5 +133,4 @@ Frontend (Vite) (`frontend/.env` or `VITE_` env):
 
 ---
 
-If you'd like, I can add a Postman collection, example responses, or automated test scripts for the auth flow. Tell me which and I will add it to this README.
 
